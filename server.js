@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const { createClient } = require('@supabase/supabase-js');
 const path = require('path');
-const supabase = createClient('https://btqdyetokeavrqywswds.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ0cWR5ZXRva2VhdnJxeXdzd2RzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMDk4MDgzMSwiZXhwIjoyMDQ2NTU2ODMxfQ.Hv6NJoFpwyp6k4eRqTVBeRq1cUhcR__sNjnFz3Utghw');
+const supabase = createClient(url, apikey);
 const port = 3000;
 
 app.set('view engine', 'ejs');
